@@ -1,0 +1,16 @@
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\restapi.deps.json
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\restapi.runtimeconfig.json
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\restapi.runtimeconfig.dev.json
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\restapi.dll
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\bin\Debug\netcoreapp2.2\restapi.pdb
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.csprojAssemblyReference.cache
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.RazorAssemblyInfo.cache
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.RazorAssemblyInfo.cs
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.AssemblyInfoInputs.cache
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.AssemblyInfo.cs
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.RazorTargetAssemblyInfo.cache
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.dll
+E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.pdb
