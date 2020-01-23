@@ -14,3 +14,19 @@ E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreap
 E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.RazorTargetAssemblyInfo.cache
 E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.dll
 E:\Quarter_4_Jan6\Sw Architecture_5200\assignments\1\restapi\obj\Debug\netcoreapp2.2\restapi.pdb
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\restapi.deps.json
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\restapi.runtimeconfig.json
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\restapi.runtimeconfig.dev.json
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\restapi.dll
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\bin\Debug\netcoreapp2.2\restapi.pdb
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.csprojAssemblyReference.cache
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.RazorAssemblyInfo.cache
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.RazorAssemblyInfo.cs
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.AssemblyInfoInputs.cache
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.AssemblyInfo.cs
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.RazorTargetAssemblyInfo.cache
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.dll
+C:\Users\TejasChetan\source\repos\CPSC5200_RestApi\restapi\obj\Debug\netcoreapp2.2\restapi.pdb

@@ -55,13 +55,8 @@ namespace restapi.Controllers
         [ProducesResponseType(typeof(Timecard), 200)]
         public Timecard Create([FromBody] DocumentPerson person)
         {
-            /*if(person == null){
-                person = new DocumentPerson();
-                logger.LogInformation($"Logging Person as 1");
-                person.Id = 1;
-            }*/
-            logger.LogInformation($"Creating timesheet for {person.ToString()}");
 
+            logger.LogInformation($"Creating timesheet for {person.ToString()}");
 
             var timecard = new Timecard(person.Id);
 
@@ -126,6 +121,7 @@ namespace restapi.Controllers
         [Produces(ContentTypes.TimesheetLine)]
         [ProducesResponseType(typeof(TimecardLine), 200)]
         [ProducesResponseType(404)]
+        //Get a single line for the line id freom the specified timesheet 
         public IActionResult GetLine(Guid id, Guid lineId)
         {
             logger.LogInformation($"Looking for Line {lineId}");
@@ -154,6 +150,7 @@ namespace restapi.Controllers
         [ProducesResponseType(typeof(TimecardLine), 200)]
         [ProducesResponseType(404)]
         [ProducesResponseType(typeof(InvalidStateError), 409)]
+        //Path a entry in the line for the given line id from the specified timesheet
         public IActionResult PatchLine(Guid id, Guid lineId, [FromBody] DocumentLine documentLine)
         {
             logger.LogInformation($"Looking for timesheet {id}");
@@ -267,7 +264,8 @@ namespace restapi.Controllers
 
             if (timecard != null)
             {
-                if (timecard.Status != TimecardStatus.Draft)
+                // We check the person submitting the timecard is the same person who owns the timecard
+                if (timecard.Status != TimecardStatus.Draft || timecard.Employee != submittal.Person)
                 {
                     return StatusCode(409, new InvalidStateError() { });
                 }
@@ -340,7 +338,8 @@ namespace restapi.Controllers
 
             if (timecard != null)
             {
-                if (timecard.Status != TimecardStatus.Draft && timecard.Status != TimecardStatus.Submitted)
+                // We check the person cancelling the timecard is the same person who owns the timecard
+                if ((timecard.Status != TimecardStatus.Draft && timecard.Status != TimecardStatus.Submitted) || timecard.Employee != cancellation.Person)
                 {
                     return StatusCode(409, new InvalidStateError() { });
                 }

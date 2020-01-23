@@ -179,6 +179,7 @@ namespace restapi.Models
             return docLine;
         }
 
+        //checks for duplication and if line already exsists then delete the exsisting line
         public void CheckAndRemoveExistingLine(DocumentLine inputDocumentLine){
             foreach(TimecardLine line in Lines){
                 DocumentLine docLine = BuildDocumentLine(line);
@@ -189,8 +190,10 @@ namespace restapi.Models
             }
         }
 
+        
         public TimecardLine AddLine(DocumentLine documentLine)
         {
+            //Check for for the same exsisting line 
             CheckAndRemoveExistingLine(documentLine);
 
             var annotatedLine = new TimecardLine(documentLine);
